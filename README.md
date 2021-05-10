@@ -10,4 +10,4 @@ Versijos:
 
 v0.1 - Įvykdyti užduoties reikalavimai. v0.2 - Pridėta galimybė nuskaityti duomenis iš txt failo, studentų vardų rikiavimas alfabetiškai. v0.3 - Atnaujinta programos struktūra, sukurti papildomi .cpp ir .h failai. v0.4 - Sistemos tikslas pakeistas į tam tikrų užduočių laiko matavimą ir testavimą. v0.5 - Skirtingų tipų konteinerių testavimas atliekant tam tikras užduotis. v1.0 - Naudojami 2 konteineriai, paspartintas programos veikimas. v1.1 - pakeista programos struktūra. Iš student struct pereitą prie class.
 
-![image](https://user-images.githubusercontent.com/75229680/115959880-1c25c400-a517-11eb-8f79-b0773f6790e9.png)
+
