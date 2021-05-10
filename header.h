@@ -20,19 +20,28 @@ using std::vector;
 using std::list;
 using std::deque;
 
-
-class student {
-    private:
+class Person {
+    public:
+        virtual void setVardas(string vardas) = 0;
+        virtual void setPavarde(string pavarde) = 0;
+        virtual string getVardas() const = 0;
+        virtual string getPavarde() const = 0;
+    protected:
         string vardas;
         string pavarde;
+
+};
+
+class student: public Person {
+    private:
         double vid = 0.0;
     public:
         student();
         student(const student &s);
         student& operator =(const student &s) {
-            vardas = s.vardas;
-            pavarde = s.pavarde;
-            vid = s.vid;
+            setVardas(s.getVardas());
+            setPavarde(s.getPavarde());
+            setVid(s.getVid());
             return *this;
         }
         ~student();

@@ -13,18 +13,22 @@
 
 using std::string;
 
+//Constructor
 student::student() { }
 
+//Constructor overload
 student::student(const student &s) {
     vardas = s.vardas;
     pavarde = s.pavarde;
     vid = s.vid;
 }
 
+//Desctructor
 student::~student() {
 
 }
 
+//Functions implementations
 
 string student::getVardas() const {
     return vardas;
