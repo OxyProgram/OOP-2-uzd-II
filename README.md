@@ -8,6 +8,23 @@ Nuo v0.4: Vartotojas yra prašomas sugeneruoti pasirinkto dydžio studentų sąr
 
 Versijos:
 
-v0.1 - Įvykdyti užduoties reikalavimai. v0.2 - Pridėta galimybė nuskaityti duomenis iš txt failo, studentų vardų rikiavimas alfabetiškai. v0.3 - Atnaujinta programos struktūra, sukurti papildomi .cpp ir .h failai. v0.4 - Sistemos tikslas pakeistas į tam tikrų užduočių laiko matavimą ir testavimą. v0.5 - Skirtingų tipų konteinerių testavimas atliekant tam tikras užduotis. v1.0 - Naudojami 2 konteineriai, paspartintas programos veikimas. v1.1 - pakeista programos struktūra. Iš student struct pereitą prie class. v1.2 Pridėtos "gerosios praktikos" funkcijos klasei Student. v1.5 - Pridėta abstrakti klasė Person, kurią paveldi klasė Student.
+v0.1 - Įvykdyti užduoties reikalavimai. </br>
+v0.2 - Pridėta galimybė nuskaityti duomenis iš txt failo, studentų vardų rikiavimas alfabetiškai.</br>
+v0.3 - Atnaujinta programos struktūra, sukurti papildomi .cpp ir .h failai.</br>
+v0.4 - Sistemos tikslas pakeistas į tam tikrų užduočių laiko matavimą ir testavimą.</br>
+v0.5 - Skirtingų tipų konteinerių testavimas atliekant tam tikras užduotis.</br>
+v1.0 - Naudojami 2 konteineriai, paspartintas programos veikimas.</br>
+v1.1 - Pakeista programos struktūra. Iš student struct pereitą prie class.</br>
+v1.2 - Pridėtos "gerosios praktikos" funkcijos klasei Student.</br>
+v1.5 - Pridėta abstrakti klasė Person, kurią paveldi klasė Student.</br>
+v2.0 - Pridėta UnitTestai, sukurtas setup.msi failas patogesniam programos įdiegimui.</br>
+
+![image](https://user-images.githubusercontent.com/75229680/115959880-1c25c400-a517-11eb-8f79-b0773f6790e9.png)
+
+Programos įdiegimo instrukcija:</br>
+Paleidžiame setup.msi failą, vykdome setup-wizard nurodymus, įdiegiame programą. Po to galime paleisti programą.</br>
+ARBA</br>
+Atidarome terminalą arba powershell atsisiųstame aplanke, suvedame komandą "make" ir po to paleidžiame output.exe failą (reikalingas c++ kompiliatorius).</br>
+
 
 
